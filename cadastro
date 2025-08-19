@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Cadastro</h2>
+    <form onsubmit="return cadastrarUsuario()">
+      <input type="text" id="nome" placeholder="Nome completo" required />
+      <input type="email" id="email" placeholder="Email válido" required />
+      <input type="password" id="senha" placeholder="Senha (mín. 6 caracteres)" required />
+      <input type="password" id="confirmarSenha" placeholder="Confirmar senha" required />
+      <button type="submit" class="btn">Cadastrar</button>
+      <p id="mensagemCadastro" class="mensagem-erro"></p>
+    </form>
+    <a href="index.html" class="link-voltar">← Voltar</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
