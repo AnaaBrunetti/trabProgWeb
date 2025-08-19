@@ -102,6 +102,8 @@ button {
 }
 #gameArea {
     margin-top: 20px; 
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
 }
 #arena.ativo {
   background-color: #4CAF50; 
@@ -130,3 +132,4 @@ button {
 #stats strong {
   color: #ce5491;
 }
+
