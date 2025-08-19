@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Reflexo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo de Reflexo</h1>
+        <p>Clique em <strong>Iniciar</strong> e aguarde a tela ficar <span style="color:green;font-weight: bold; ">VERDE</span>. Clique o mais rápido possível!</p>
+        
+        <button id="startBtn">Iniciar</button>
+        <button id="resetBtn">Zerar</button>
+
+        <div id="gameArea">Espere...</div>
+
+        <div class="stats">
+            <p><strong>Último tempo:</strong> <span id="lastTime">-</span> ms</p>
+            <p><strong>Melhor tempo:</strong> <span id="bestTime">-</span> ms</p>
+            <p><strong>Média:</strong> <span id="averageTime">-</span> ms</p>
+            <p><strong>Tentativas:</strong> <span id="attempts">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

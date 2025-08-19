@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ff5de9d3, #aacbec);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu .btn {
+  width: 80%;
+  max-width: 300px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #ce5491;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin: 3px;
+}
+
+.btn:hover {
+  background-color: #ec88cb;
+}
+
+.mensagem-erro {
+  color: red;
+  margin-top: 10px;
+}
+
+.mensagem-sucesso {
+  color: green;
+  margin-top: 10px;
+}
+
+.link-voltar {
+  display: block;
+  margin-top: 20px;
+  color: #e71a92;
+  text-decoration: none;
+}
+
+.link-voltar:hover {
+  text-decoration: underline;
+}
+
+/* jogo */
+button {
+   
+    font-size: 15px;
+    cursor: pointer;  
+}
+#arena {
+  width: 100%;
+  height: 200px;
+  background-color: #f44336; 
+  margin-top: 25px;  
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#gameArea {
+    margin-top: 20px; 
+}
+#arena.ativo {
+  background-color: #4CAF50; 
+}
+
+#alvo {
+  width: 50px;
+  height: 50px;
+  background-color: #2196F3;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+#stats {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+#stats p {
+  margin: 5px 0;
+}
+
+#stats strong {
+  color: #ce5491;
+}

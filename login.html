@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form onsubmit="return fazerLogin()">
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="senha" placeholder="Senha" required />
+      <button type="submit" class="btn">Entrar</button>
+      <p id="mensagem" class="mensagem-erro"></p>
+    </form>
+    <a href="index.html" class="link-voltar">← Voltar</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

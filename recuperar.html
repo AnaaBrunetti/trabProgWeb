@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Recuperar Senha</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Recuperar Senha</h2>
+    <form onsubmit="return recuperarSenha()">
+      <input type="email" id="recuperarEmail" placeholder="Digite seu email" required />
+      <button type="submit" class="btn" id="btnRecuperar">Enviar</button>
+      <p id="mensagemRecuperar" class="mensagem-sucesso"></p>
+    </form>
+    <a href="index.html" class="link-voltar">← Voltar</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
