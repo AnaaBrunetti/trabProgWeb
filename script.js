@@ -42,7 +42,7 @@ function fazerLogin() {
 
   if (usuario) {
     alert(`Bem-vindo, ${usuario.nome}!`);
-    window.location.href = 'index.html';
+    window.location.href = 'jogo.html'; // 👉 aqui vai direto pro jogo
   } else {
     msg.textContent = 'Email ou senha incorretos.';
   }
@@ -68,7 +68,6 @@ function recuperarSenha() {
 }
 
 // jogo
-
 const startBtn = document.getElementById("startBtn");
 const resetBtn = document.getElementById("resetBtn");
 const gameArea = document.getElementById("gameArea");
